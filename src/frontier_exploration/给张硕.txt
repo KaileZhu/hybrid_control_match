@@ -1,0 +1,20 @@
+ros文件：
+/home/andy-station/hybrid_control_match/src/mbot_explore/scripts/frontier_explore_ros.py
+
+rosbag数据包：
+~/2024-12-18-00-13-05.bag
+
+
+1、打开roscore
+roscore
+
+2、打开rosbag数据包
+rosbag play ~/2024-12-18-00-13-05.bag
+
+3、开启你的算法
+python ~/hybrid_control_match/src/mbot_explore/scripts/frontier_explore_ros.py
+
+4、通过rviz看结果
+rviz 
+
+左下角add，选择topic，添加/map和/frontiers
